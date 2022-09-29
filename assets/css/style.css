@@ -286,10 +286,10 @@ textarea:focus {
   height: calc(100vh - 80px); }
 
 .carousel-item {
-  height: 100%; }
+  height: calc(100vh - 80px); }
 
 .carousel-item img {
-  height: 100%;
+  height: calc(100vh - 80px);
   object-fit: cover;
   object-position: top; }
 
