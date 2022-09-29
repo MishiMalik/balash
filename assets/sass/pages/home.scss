@@ -5,18 +5,13 @@
     }
 }
 .carousel-item{
-    height: calc(100vh - 80px);
-    @media only screen and (max-width:768px){
-        height: 500px;
-     }
+  height: 100%;
 }
 .carousel-item img{
-    height: calc(100vh - 80px);
+    height:100%;
     object-fit: cover;
     object-position: top;
-    @media only screen and (max-width:768px){
-        height: 500px;
-     }
+    
 }
 .header-icon{
     z-index: 1000;

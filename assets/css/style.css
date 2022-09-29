@@ -52,6 +52,8 @@
   font-size: 30px; }
 
 @media only screen and (max-width: 768px) {
+  .process-text {
+    text-align: left !important; }
   .padding-medium {
     padding: 40px 0px !important; }
   .f-45 {
@@ -73,7 +75,13 @@
   .footer-terms {
     margin-right: 10px !important;
     margin-bottom: 10px !important;
-    white-space: nowrap; } }
+    white-space: nowrap; }
+  .f-20 {
+    font-size: 16px; } }
+
+@media only screen and (max-width: 375px) {
+  .f-20 {
+    font-size: 14px; } }
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -289,18 +297,12 @@ textarea:focus {
       height: 500px; } }
 
 .carousel-item {
-  height: calc(100vh - 80px); }
-  @media only screen and (max-width: 768px) {
-    .carousel-item {
-      height: 500px; } }
+  height: 100%; }
 
 .carousel-item img {
-  height: calc(100vh - 80px);
+  height: 100%;
   object-fit: cover;
   object-position: top; }
-  @media only screen and (max-width: 768px) {
-    .carousel-item img {
-      height: 500px; } }
 
 .header-icon {
   z-index: 1000; }
