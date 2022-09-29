@@ -1,18 +1,22 @@
 .carousel-inner-nav{
     height: calc(100vh - 80px);
-    // @media only screen and (max-width:768px){
-    //    height: 500px;
-    // }
+    @media only screen and (max-width:768px){
+       height: 500px;
+    }
 }
 .carousel-item{
     height: calc(100vh - 80px);
-   
+    @media only screen and (max-width:768px){
+        height: 500px;
+     }
 }
 .carousel-item img{
     height: calc(100vh - 80px);
     object-fit: cover;
     object-position: top;
-   
+    @media only screen and (max-width:768px){
+        height: 500px;
+     }
 }
 .header-icon{
     z-index: 1000;
@@ -36,9 +40,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // @media only screen and (max-width:768px){
-    //     height: 500px;
-    //  }
+    @media only screen and (max-width:768px){
+        height: 500px;
+     }
 }
 .img-slider{
 display: flex;
