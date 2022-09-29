@@ -308,7 +308,7 @@ textarea:focus {
 .carousel-text {
   position: absolute;
   background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%);
-  top: 80px;
+  top: 0px;
   left: 0;
   right: 0;
   bottom: 0;
