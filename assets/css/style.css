@@ -284,9 +284,6 @@ textarea:focus {
 
 .carousel-inner-nav {
   height: calc(100vh - 80px); }
-  @media only screen and (max-width: 768px) {
-    .carousel-inner-nav {
-      min-height: 500px; } }
 
 .carousel-item {
   height: 100%; }
@@ -318,9 +315,6 @@ textarea:focus {
   display: flex;
   justify-content: center;
   align-items: center; }
-  @media only screen and (max-width: 768px) {
-    .carousel-text {
-      min-height: 500px; } }
 
 .img-slider {
   display: flex;
