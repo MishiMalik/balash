@@ -325,7 +325,7 @@ textarea:focus {
   object-position: top; }
 
 .header-icon {
-  z-index: 1000; }
+  z-index: 100; }
 
 .carousel-indicators [data-bs-target] {
   border-radius: 100%;
