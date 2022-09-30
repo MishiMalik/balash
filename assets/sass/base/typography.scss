@@ -37,14 +37,29 @@ $text-gray:#535353;
 .f-20{
     font-size: 20px;
 }
+.f-30{
+    font-size: 30px;
+}
+.f-18{
+    font-size: 18px;
+}
+.f-35{
+    font-size: 35px;
+}
+.f-28{
+    font-size: 28px;
+    
+}
 .text-white{
     color: white;
+}
+.text-gray{
+    color: $text-gray;
 }
 .text-yellow{
     color: $primary2 !important;
 }
 .gradient-text{
-//     color: linear-gradient(257.66deg, #FFB800 2.56%, #DD824F 100%) !important;
 background: -webkit-linear-gradient(257.66deg, #FFB800 2.56%, #DD824F 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -55,9 +70,7 @@ background: -webkit-linear-gradient(257.66deg, #FFB800 2.56%, #DD824F 100%);
 .padding-top{
     padding-top: 60px
 }
-.f-30{
-    font-size: 30px;
-}
+
 @media only screen and (max-width:768px){
     .process-text{
         text-align: left !important;

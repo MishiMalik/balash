@@ -1,0 +1,31 @@
+.services-text{
+    background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%),url('/assets/images/services.png') /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    @media only screen and (max-width:768px){
+       height: 300px;
+     }
+}
+.plan-cards{
+    background: #FFFFFF;
+box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+}
+.plan-card{
+    padding:50px 10px !important;
+}
+.plan-card-center{
+    padding: 0px 0px 50px 0px !important;
+    background-color: white;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+border: 2px solid  #FFB800 !important;
+margin-top: -30px;
+margin-bottom: -30px;
+}
+.plan-card-header{
+    background: linear-gradient(159.3deg, #FFB800 4.11%, #DD824F 100%);
+    border-radius: 8px 8px 0px 0px;
+}
