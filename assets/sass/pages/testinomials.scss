@@ -4,7 +4,12 @@
     justify-content: center;
     align-items: center;
     height: 400px;
+
+    background-repeat: no-repeat;
     @media only screen and (max-width:768px){
        height: 300px;
+       width: 100%;
+       background-position: center;
+
      }
 }
