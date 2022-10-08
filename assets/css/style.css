@@ -99,7 +99,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
   background-color: #FFFBE9;
-  padding-top: 80px; }
+  padding-top: 120px; }
 
 @media only screen and (min-width: 1300px) and (max-width: 1450px) {
   .container {
@@ -107,6 +107,56 @@ body {
 
 a {
   text-decoration: none; }
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }
+
+.ticker-wrap {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 40px;
+  background: linear-gradient(269.47deg, #FFB800 20%, #DD824F 128.56%);
+  padding-left: 100%;
+  box-sizing: content-box;
+  z-index: 10000; }
+  .ticker-wrap .ticker {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s; }
+    .ticker-wrap .ticker__item {
+      display: inline-block;
+      padding: 0 2rem;
+      font-size: 22px;
+      color: white;
+      font-weight: 600; }
 
 .navbar-brand img {
   width: 138px;
@@ -118,7 +168,7 @@ a {
 .navbar {
   height: 80px;
   position: fixed;
-  top: 0;
+  top: 40px;
   left: 0;
   right: 0;
   background-color: #FFFBE9;
@@ -325,7 +375,7 @@ textarea:focus {
   object-position: top; }
 
 .header-icon {
-  z-index: 100; }
+  z-index: 10; }
 
 .carousel-indicators [data-bs-target] {
   border-radius: 100%;
