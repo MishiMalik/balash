@@ -30,7 +30,7 @@ $('.owl-carousel').owlCarousel({
    */
 //   window.addEventListener('load', () => {
     AOS.init({
-      duration: 1400,
+      duration: 1500,
       easing: 'ease-in-out',
       once: true,
       mirror: false
