@@ -369,10 +369,14 @@ textarea:focus {
   border: 8px solid #FFB800;
   position: absolute;
   z-index: -1;
-  top: 50%;
+  top: 32%;
   left: 32%;
   transform: translate(-50%, -50%);
   animation: ring 1.5s infinite; }
+  @media only screen and (max-width: 768px) {
+    .referral::after {
+      top: 20%;
+      left: 50%; } }
 
 @keyframes ring {
   0% {
