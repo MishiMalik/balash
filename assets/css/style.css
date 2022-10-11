@@ -384,6 +384,9 @@ textarea:focus {
     height: 250px;
     opacity: 0; } }
 
+.animation-div {
+  overflow: hidden; }
+
 .carousel-inner-nav {
   height: calc(100vh - 80px); }
   @media only screen and (max-width: 768px) {
