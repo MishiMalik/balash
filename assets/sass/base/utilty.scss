@@ -32,19 +32,6 @@ a{
     }
   }
   
-  @keyframes ticker {
-    0% {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-      visibility: visible;
-    }
-  
-    100% {
-      -webkit-transform: translate3d(-100%, 0, 0);
-      transform: translate3d(-100%, 0, 0);
-    }
-  }
-  
   .ticker-wrap {
     position: fixed;
     top: 0;
@@ -67,21 +54,20 @@ a{
   
       -webkit-animation-iteration-count: infinite; 
               animation-iteration-count: infinite;
-      -webkit-animation-timing-function: linear;
-              animation-timing-function: linear;
+      -webkit-animation-timing-function: ease-in-out;
+              animation-timing-function: ease-in-out;
      -webkit-animation-name: ticker;
              animation-name: ticker;
       -webkit-animation-duration: 20s;
               animation-duration: 20s;
+              
   
       &__item {
-  
         display: inline-block;
-  
         padding: 0 2rem;
-        font-size: 22px;
+        font-size: 20px;
         color: white; 
-        font-weight: 600;  
+        font-weight: 500;  
   
       }
   

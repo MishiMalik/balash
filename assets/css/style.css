@@ -118,15 +118,6 @@ a {
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0); } }
 
-@keyframes ticker {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    visibility: visible; }
-  100% {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0); } }
-
 .ticker-wrap {
   position: fixed;
   top: 0;
@@ -155,9 +146,9 @@ a {
     .ticker-wrap .ticker__item {
       display: inline-block;
       padding: 0 2rem;
-      font-size: 22px;
+      font-size: 20px;
       color: white;
-      font-weight: 600; }
+      font-weight: 500; }
 
 .navbar-brand img {
   width: 138px;
