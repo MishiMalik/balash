@@ -484,6 +484,8 @@ textarea:focus {
   display: none; }
 
 .growth-card {
+  width: 231px;
+  height: 231px;
   background: #FFFFFF;
   box-shadow: 0px 4px 15px rgba(0, 102, 255, 0.1);
   border-radius: 25px;
@@ -491,7 +493,7 @@ textarea:focus {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin: 15px auto;
+  margin: 15px auto !important;
   padding: 15px 10px 20px 10px !important; }
 
 .growth-card:hover {
@@ -502,6 +504,10 @@ textarea:focus {
   color: #1E1E1E !important; }
 
 .growth-card img {
+  width: 67px;
+  height: 67px; }
+
+.growth-card .illustration {
   width: auto;
   height: 150px; }
 
