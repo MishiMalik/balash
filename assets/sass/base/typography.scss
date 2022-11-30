@@ -6,6 +6,9 @@ $text-gray:#535353;
 
 .f-45{
     font-size: 45px;
+    @media only screen and (min-width:1600px){
+        font-size: 55px;
+     }
 }
 .w-400{
     font-weight: 400;
@@ -24,30 +27,57 @@ $text-gray:#535353;
 }
 .f-16{
     font-size: 16px;
+    @media only screen and (min-width:1600px){
+        font-size: 18px;
+     }
 }
 .f-25{
     font-size: 25px;
+    @media only screen and (min-width:1600px){
+        font-size: 28px;
+     }
 }
 .f-14{
     font-size: 14px;
+    @media only screen and (min-width:1600px){
+        font-size: 18px;
+     }
 }
 .f-12{
     font-size: 12px;
+    @media only screen and (min-width:1600px){
+        font-size: 16px;
+     }
 }
 .f-20{
     font-size: 20px;
+    @media only screen and (min-width:1600px){
+        font-size: 22px;
+     }
 }
 .f-30{
     font-size: 30px;
+    @media only screen and (min-width:1600px){
+        font-size: 32px;
+     }
 }
 .f-18{
     font-size: 18px;
+    @media only screen and (min-width:1600px){
+        font-size: 20px;
+     }
 }
 .f-35{
     font-size: 35px;
+    @media only screen and (min-width:1600px){
+        font-size: 38px;
+     }
 }
 .f-28{
     font-size: 28px;
+    @media only screen and (min-width:1600px){
+        font-size: 30px;
+     }
     
 }
 .text-white{

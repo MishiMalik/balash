@@ -7,11 +7,16 @@ body{
    
 }
 
-   @media only screen and (min-width:1300px) and (max-width:1450px){
+   @media only screen and (min-width:1200px) and (max-width:1450px){
     .container{
-    max-width: 1240px !important;
+    max-width: 1340px !important;
    }
 }
+@media only screen and (min-width:1650px){
+    .container{
+        max-width: 1600px !important;
+       }
+ }
 a{
     text-decoration: none;
 }
@@ -104,6 +109,14 @@ padding-bottom: 0px;
 padding-right: 15px !important;
 padding-left: 15px !important;
 border-bottom: 2px solid transparent!important;
+@media only screen and (min-width:1600px){
+    padding-right: 10px !important;
+padding-left: 10px !important;
+ }
+ @media only screen and (max-width:1300px){
+    padding-left: 0px !important;
+    padding-bottom: 15px;
+}
 @media only screen and (max-width:1200px){
     padding-left: 0px !important;
     padding-bottom: 15px;
@@ -150,6 +163,7 @@ color: $text-dark !important;
     background: linear-gradient(269.47deg, #FFB800 0.26%, #DD824F 128.56%);
     border-radius: 25px;
     border: 2px solid transparent !important;
+   
     @media only screen and (max-width:1200px){
         width: 100%;
      }
@@ -207,6 +221,9 @@ text-align: right;
 
 color: #FFFFFF;
 text-decoration: none;
+@media only screen and (min-width:1600px){
+    font-size: 18px;
+ }
 }
 .yellow-btn2 a{
     font-style: normal;
@@ -219,6 +236,9 @@ text-align: right;
 
 color: #FFFFFF;
 text-decoration: none;
+@media only screen and (min-width:1600px){
+    font-size: 18px;
+ }
 }
 .yellow-btn-transparent a{
     font-style: normal;
@@ -231,6 +251,9 @@ text-align: right;
 
 color: #FFFFFF;
 text-decoration: none;
+@media only screen and (min-width:1600px){
+    font-size: 18px;
+ }
 }
 
 
