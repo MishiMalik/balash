@@ -1,8 +1,10 @@
 .carousel-inner-nav{
-    // height: calc(100vh - 80px);
-    height: 500px;
+     height: calc(80vh - 80px);
     @media only screen and (min-width:1600px){
-       height: 700px;
+        height: calc(70vh - 80px);
+    }
+    @media only screen and (max-width:767px){
+        height: 400px;
     }
 }
 .carousel-item{
@@ -37,7 +39,7 @@
     justify-content: center;
     align-items: center;
     @media only screen and (max-width:768px){
-        height: 500px;
+        height: 400px;
      }
 }
 .img-slider{
@@ -178,3 +180,22 @@ border-radius: 25px;
     }
 }
 
+.blob{
+    animation: pulse-black 2s infinite;
+}
+@keyframes pulse-black {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0  rgb(255, 184, 0.2) ;
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgb(255, 184, 0.3);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgb(255, 184, 0.4);
+    }
+  }
