@@ -1,5 +1,5 @@
 
-$('.owl-carousel').owlCarousel({
+$('.logo-slider').owlCarousel({
     loop: true,
     margin:10,
     responsiveClass: true,
@@ -24,6 +24,31 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
+$('.news-slider').owlCarousel({
+    loop: true,
+    margin:10,
+    responsiveClass: true,
+    autoplay: true,
+    autoplayTimeout: 2500,
+    autoplayHoverPause: true,
+    responsive: {
+
+        0: {
+            items: 1,
+            nav: true
+        },
+        480:{
+           items:2,
+        },
+        768: {
+            items: 3,
+        },
+        1000: {
+            items: 3,
+            loop: true
+        }
+    }
+})
 
  /**
    * Animation on scroll

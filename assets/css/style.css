@@ -134,7 +134,7 @@ body {
 
 @media only screen and (min-width: 1200px) and (max-width: 1450px) {
   .container {
-    max-width: 1340px !important; } }
+    max-width: 1300px !important; } }
 
 @media only screen and (min-width: 1650px) {
   .container {
@@ -605,13 +605,13 @@ textarea:focus {
     box-shadow: 0 0 0 0 #ffb800; } }
 
 .about-text {
-  background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url("/assets/images/image 1 (3).png");
+  background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url("/assets/images/ABOUT.png");
   display: flex;
   justify-content: center;
   align-items: center;
   height: 400px;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-repeat: repeat;
+  background-size: fill; }
   @media only screen and (max-width: 768px) {
     .about-text {
       height: 300px;
@@ -627,15 +627,17 @@ textarea:focus {
   height: auto;
   object-fit: cover; }
 
-.testnomial-text {
-  background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url("/assets/images/image 1 (3).png");
+.affliate-banner {
+  background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url("/assets/images/money.jpg") !important;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 400px;
-  background-size: cover !important; }
+  background-size: cover !important;
+  object-position: bottom !important;
+  background-position: center !important; }
   @media only screen and (max-width: 768px) {
-    .testnomial-text {
+    .affliate-banner {
       height: 300px; } }
 
 .accordion-button {
@@ -727,6 +729,36 @@ textarea:focus {
   background: linear-gradient(159.3deg, #FFB800 4.11%, #DD824F 100%);
   border-radius: 8px 8px 0px 0px; }
 
+.uv-grow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px; }
+
+.uv-grow-img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border: 1px solid #FFB800;
+  border-radius: 100%;
+  margin-bottom: 10px; }
+
+.uv-grow-text {
+  text-align: center; }
+  .uv-grow-text h1 {
+    margin: 10px 0px; }
+  .uv-grow-text h3 {
+    text-decoration: underline !important; }
+
+.center-uv-grow {
+  border-left: 1px solid #FFB800;
+  border-right: 1px solid #FFB800; }
+  @media only screen and (max-width: 991px) {
+    .center-uv-grow {
+      border-left: none !important;
+      border-right: none !important; } }
+
 .news-text {
   background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url("/assets/images/image 1 (1).png");
   display: flex;
@@ -796,6 +828,86 @@ textarea:focus {
     .news-card-3 .text h1 {
       max-height: 100px !important;
       overflow: hidden; }
+
+.news-card-4 {
+  width: auto;
+  position: relative;
+  height: 590px;
+  overflow-y: auto; }
+  .news-card-4 img {
+    width: 100%;
+    height: 215px;
+    object-fit: cover; }
+  .news-card-4 .text {
+    background: #F9F3DD;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .news-card-4 .text h1 {
+      max-height: 100px !important;
+      overflow: hidden; }
+
+.table-responsive {
+  height: 530px;
+  overflow-y: hidden; }
+
+.table-responsive:hover {
+  border-color: red; }
+
+.news-notification-1 {
+  color: white;
+  background-color: #0E4086;
+  padding: 10px 10px; }
+
+.news-notification-2 {
+  color: white;
+  background-color: #D4700A;
+  padding: 10px 10px; }
+
+.news-banner {
+  width: 100%;
+  height: 86px;
+  border: 1px solid gray;
+  padding: 5px;
+  display: flex; }
+  .news-banner .date {
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    background-color: #D4700A;
+    display: flex;
+    flex-shrink: 0 !important;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  .news-banner .date-text {
+    width: 100%;
+    padding-left: 10px; }
+    .news-banner .date-text p {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden; }
+
+.sliding-banner {
+  height: 100px !important;
+  width: 100%; }
+  .sliding-banner img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%; }
+
+.date-picker {
+  width: 100%; }
+  .date-picker input {
+    border-radius: 10px;
+    border: 1px solid #D4700A;
+    font-size: 22px;
+    width: 100%;
+    padding: 10px 10px; }
 
 .contact-text {
   background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url("/assets/images/contact.png");
