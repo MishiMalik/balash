@@ -183,6 +183,10 @@ border-radius: 25px;
 .blob{
     animation: pulse-black 2s infinite;
 }
+.blob2{
+    animation: pulse-black2 2s infinite;
+}
+
 @keyframes pulse-black {
     0% {
       transform: scale(0.95);
@@ -197,5 +201,21 @@ border-radius: 25px;
     100% {
       transform: scale(0.95);
       box-shadow: 0 0 0 0 rgb(255, 184, 0.4);
+    }
+  }
+  @keyframes pulse-black2 {
+    0% {
+      transform: scale(0.95);
+      color:rgb(255, 184, 0.4) ;
+    }
+    
+    70% {
+        transform: scale(1);
+        color:rgb(255, 184, 0.4) ;
+    }
+    
+    100% {
+        transform: scale(0.95);
+        color:rgb(255, 184, 0.4) ;
     }
   }

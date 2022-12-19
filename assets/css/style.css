@@ -175,8 +175,8 @@ a {
     animation-timing-function: ease-in-out;
     -webkit-animation-name: ticker;
     animation-name: ticker;
-    -webkit-animation-duration: 20s;
-    animation-duration: 20s; }
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s; }
     .ticker-wrap .ticker__item {
       display: inline-block;
       padding: 0 2rem;
@@ -185,8 +185,8 @@ a {
       font-weight: 500; }
 
 .navbar-brand img {
-  width: 138px;
-  height: 50px; }
+  width: 152px;
+  height: 60px; }
 
 .navbar-toggler {
   font-size: 15px; }
@@ -415,6 +415,10 @@ textarea:focus {
   left: 32%;
   transform: translate(-50%, -50%);
   animation: ring 1.5s infinite; }
+  @media only screen and (min-width: 1500px) {
+    .referral::after {
+      top: 20%;
+      left: 35%; } }
   @media only screen and (max-width: 768px) {
     .referral::after {
       top: 20%;
@@ -593,6 +597,9 @@ textarea:focus {
 .blob {
   animation: pulse-black 2s infinite; }
 
+.blob2 {
+  animation: pulse-black2 2s infinite; }
+
 @keyframes pulse-black {
   0% {
     transform: scale(0.95);
@@ -603,6 +610,17 @@ textarea:focus {
   100% {
     transform: scale(0.95);
     box-shadow: 0 0 0 0 #ffb800; } }
+
+@keyframes pulse-black2 {
+  0% {
+    transform: scale(0.95);
+    color: #ffb800; }
+  70% {
+    transform: scale(1);
+    color: #ffb800; }
+  100% {
+    transform: scale(0.95);
+    color: #ffb800; } }
 
 .about-text {
   background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url("/assets/images/ABOUT.png");

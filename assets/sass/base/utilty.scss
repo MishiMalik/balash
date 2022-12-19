@@ -63,8 +63,8 @@ a{
               animation-timing-function: ease-in-out;
      -webkit-animation-name: ticker;
              animation-name: ticker;
-      -webkit-animation-duration: 20s;
-              animation-duration: 20s;
+      -webkit-animation-duration: 30s;
+              animation-duration: 30s;
               
   
       &__item {
@@ -83,8 +83,8 @@ a{
   
 // -----------------------------------navbar
 .navbar-brand img{
-    width: 138px;
-height: 50px;
+    width: 152px;
+height: 60px;
 }
 .navbar-toggler{
 font-size: 15px;
@@ -341,6 +341,10 @@ padding: 0px 30px;
     transform: translate(-50%, -50%);
     animation: ring 1.5s infinite;
 
+    @media only screen and (min-width:1500px){
+        top: 20%;
+        left: 35%;
+    }
     @media only screen and (max-width:768px){
         top: 20%;
         left: 50%;
