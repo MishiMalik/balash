@@ -184,10 +184,6 @@ a {
       color: white;
       font-weight: 500; }
 
-.navbar-brand img {
-  width: 152px;
-  height: 60px; }
-
 .navbar-toggler {
   font-size: 15px; }
 
@@ -200,6 +196,25 @@ a {
   background-color: #FFFBE9;
   z-index: 110;
   box-shadow: 0px 4px 15px rgba(0, 102, 255, 0.1); }
+  .navbar .navbar-brand .logo {
+    width: auto;
+    height: 50px; }
+    @media only screen and (min-width: 1650px) {
+      .navbar .navbar-brand .logo {
+        width: auto;
+        height: 78px; } }
+  .navbar .navbar-brand .logo-text {
+    width: 100px;
+    height: auto; }
+    @media only screen and (min-width: 1650px) {
+      .navbar .navbar-brand .logo-text {
+        width: 150px;
+        height: auto; } }
+    @media only screen and (max-width: 768px) {
+      .navbar .navbar-brand .logo-text {
+        padding-top: 0px !important;
+        height: 30px;
+        width: auto; } }
 
 .nav-link {
   font-style: normal;
@@ -623,13 +638,14 @@ textarea:focus {
     color: #ffb800; } }
 
 .about-text {
-  background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url("/assets/images/ABOUT.png");
+  background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url("/assets/images/aboutttt.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
   height: 400px;
-  background-repeat: repeat;
-  background-size: fill; }
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
   @media only screen and (max-width: 768px) {
     .about-text {
       height: 300px;
@@ -644,6 +660,11 @@ textarea:focus {
   width: 100%;
   height: auto;
   object-fit: cover; }
+
+.balash-text {
+  height: 12px !important;
+  margin-right: 3px;
+  margin-left: 3px; }
 
 .affliate-banner {
   background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url("/assets/images/money.jpg") !important;
@@ -713,7 +734,7 @@ textarea:focus {
       background-position: center; } }
 
 .services-text {
-  background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url("/assets/images/services.png");
+  background: linear-gradient(to right, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 0%), url("/assets/images/services.png");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -755,19 +776,29 @@ textarea:focus {
   margin-top: 25px; }
 
 .uv-grow-img {
-  height: 200px;
-  width: 200px;
+  height: 230px;
+  width: 230px;
   object-fit: cover;
-  border: 1px solid #FFB800;
   border-radius: 100%;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  background: #FFFFFF;
+  padding: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 102, 255, 0.1) !important; }
 
 .uv-grow-text {
+  padding: 20px;
   text-align: center; }
   .uv-grow-text h1 {
-    margin: 10px 0px; }
+    margin: 10px 0px;
+    background: #FFFFFF;
+    padding: 10px; }
   .uv-grow-text h3 {
-    text-decoration: underline !important; }
+    text-decoration: underline !important;
+    background: #FFFFFF;
+    padding: 10px !important; }
+  .uv-grow-text p {
+    background: #FFFFFF;
+    padding: 10px !important; }
 
 .center-uv-grow {
   border-left: 1px solid #FFB800;

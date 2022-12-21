@@ -1,5 +1,5 @@
 .services-text{
-    background: radial-gradient(100% 416.02% at 0% 42%, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%),url('/assets/images/services.png') /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background: linear-gradient(to right, rgba(2, 2, 2, 0.8) 0%, rgba(0, 0, 0, 0.5) 0%),url('/assets/images/services.png') /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,20 +42,33 @@ margin-bottom: -30px;
     margin-top: 25px;
 }
 .uv-grow-img{
-    height: 200px;
-    width: 200px;
+    height: 230px;
+    width: 230px;
     object-fit: cover;
-    border: 1px solid #FFB800;
+    // border: 1px solid #FFB800;
     border-radius: 100%;
     margin-bottom: 10px;
+    background: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 102, 255, 0.1) !important;
 }
 .uv-grow-text{
+    
+    padding: 20px;
     text-align: center;
     h1{
         margin: 10px 0px;
+        background: #FFFFFF;
+        padding: 10px;
     }
     h3{
         text-decoration: underline !important;
+        background: #FFFFFF;
+        padding: 10px !important;
+    }
+    p{
+        background: #FFFFFF;
+        padding: 10px !important;
     }
     
 }
